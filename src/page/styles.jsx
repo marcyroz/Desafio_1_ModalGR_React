@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from '../assets/images/background.jpg'
+import background from '../assets/images/background.jpg';
 
 export const Container = styled.div`
   max-width: 500px;
@@ -16,12 +16,24 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Plus Jakarta Sans";
-
+    font-family: 'Plus Jakarta Sans';
   }
 
-  img {
-    /* align-items: center; */
+  h2 {
+    font-size: 30px;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+  }
+
+  p {
+    color: #8ed8f8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
   }
 `;
 
@@ -39,6 +51,28 @@ export const Form = styled.form`
     padding: 10px 15px;
     border-radius: 4px;
     font-size: 16px;
-    font-family: "Plus Jakarta Sans";
+    font-family: 'Plus Jakarta Sans';
+    display: block;
+  }
+
+  button {
+    font-family: 'Plus Jakarta Sans';
+    color: #eee;
+    cursor: pointer;
+    background-color: #f58220;
+    border-radius: 4px;
+    border-style: none;
+
+
+  }
+`;
+export const Footer = styled.footer`
+  padding: 30px;
+  margin: 30px auto;
+
+  span {
+  }
+
+  img {
   }
 `;
