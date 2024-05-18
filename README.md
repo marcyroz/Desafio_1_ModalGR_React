@@ -15,8 +15,11 @@ Após ler o desafio eu decidi que essa era a maneira perfeita de usar meus conhe
 sobre crachás de evento e me inspirar em alguns designs que achei interessante, parti pra programação! Caprichei
 no visual com os conhecimento que tenho até agora, e codei de maneira que não ficasse muito complexo, com poucas 
 pastas, apenas os arquivos necessários.
+<br/>
 Não irei me estender muito nesses paragráfos pois gostaria de conversar mais com vocês pressoalmente, mas vai
 aqui um mimo:
-
+<br/>
+<br/>
 https://desafio-1-modal-gr-react.vercel.app/
+<br/>
 A aplicação já hospedada pelo site da Vercel ;P até logo!
