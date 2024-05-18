@@ -7,12 +7,10 @@ import selo2 from '../assets/images/selo_2.svg'
 export default function App() {
 
   const [name, setName] = useState('');
-  const [submittedName, setSubmittedName] = useState('');
   const [formattedName, setFormattedName] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setSubmittedName(name);
     setFormattedName(formatName(name));
 
   }
