@@ -10,12 +10,25 @@ export const Container = styled.div`
   margin: 80px auto;
   text-align: center;
 
+  .guest-name {
+    max-height: 100px;
+    max-width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffff;
+
+    span {
+      font-size: 40px;
+      color: #f58220;
+      font-family: 'Plus Jakarta Sans';
+    }
+  }
   h1 {
     font-size: 40px;
     color: #ffff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     font-family: 'Plus Jakarta Sans';
   }
 
@@ -29,7 +42,7 @@ export const Container = styled.div`
   }
 
   p {
-    color: #8ed8f8;
+    color: #00153d;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,14 +76,26 @@ export const Form = styled.form`
     background-color: #f58220;
     border-radius: 4px;
     border-style: none;
-
   }
 `;
 export const Footer = styled.footer`
-  margin: 30px auto;
+  margin: 30px;
   display: flex;
 
   img {
     padding: 10px;
+    margin-right: 10px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+    span {
+      font-family: 'Plus Jakarta Sans';
+      font-size: 15px;
+      color: #00153d;
+    }
   }
 `;
