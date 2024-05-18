@@ -16,7 +16,7 @@ export const Container = styled.div`
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin: 80px auto;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
     background-color: #ffff;
 
@@ -35,9 +35,6 @@ export const Container = styled.div`
   h2 {
     font-size: 30px;
     color: #ffff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     font-family: 'Plus Jakarta Sans';
   }
 
@@ -65,7 +62,6 @@ export const Form = styled.form`
     border-radius: 4px;
     font-size: 16px;
     font-family: 'Plus Jakarta Sans';
-    display: block;
   }
 
   button {
@@ -79,8 +75,8 @@ export const Form = styled.form`
   }
 `;
 export const Footer = styled.footer`
-  margin: 30px;
   display: flex;
+  margin-top: 30px;
 
   img {
     padding: 10px;

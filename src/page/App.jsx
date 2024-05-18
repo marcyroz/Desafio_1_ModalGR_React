@@ -35,9 +35,12 @@ export default function App() {
         <h1>FEIRA DE TECNOLOGIA 2024</h1>
         <img src={logo} alt="logo da ModalGR" width={200} height={200} />
         {formattedName ? (
+          <>
+          <h2>Colaborador(a)</h2>
         <div className='guest-name'>
           <strong><span>{formattedName}</span></strong>
         </div>
+        </>
       ) : (
         <>
         <p>A ModalGR te convida para atender à próxima feira de tecnologia de 2024 como nosso(a) Colaborador(a)! Insira seu nome e crie seu crachá de idetificação :)</p>
