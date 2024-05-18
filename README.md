@@ -6,3 +6,17 @@ o seguinte padrão como segue no exemplo abaixo:
 Nome completo colaborador: Antônio Carlos Pereira da Silva dos Santos e
 Machado
 Nome que deverá ser impresso no crachá: MACHADO, A. C. P. S. S.
+
+# Comentários da programadora 🖐
+Oi pessoal da ModalGR :) 
+Desde já agradeço pela oportunidade de poder testar meus conhecimentos com a equipe de vocês!
+## Sobre o projeto...
+Após ler o desafio eu decidi que essa era a maneira perfeita de usar meus conhecimentos em react: após pesquisar
+sobre crachás de evento e me inspirar em alguns designs que achei interessante, parti pra programação! Caprichei
+no visual com os conhecimento que tenho até agora, e codei de maneira que não ficasse muito complexo, com poucas 
+pastas, apenas os arquivos necessários.
+Não irei me estender muito nesses paragráfos pois gostaria de conversar mais com vocês pressoalmente, mas vai
+aqui um mimo:
+
+https://desafio-1-modal-gr-react.vercel.app/
+A aplicação já hospedada pelo site da Vercel ;P até logo!
