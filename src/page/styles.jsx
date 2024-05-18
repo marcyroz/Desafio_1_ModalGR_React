@@ -57,22 +57,20 @@ export const Form = styled.form`
 
   button {
     font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
     color: #eee;
     cursor: pointer;
     background-color: #f58220;
     border-radius: 4px;
     border-style: none;
 
-
   }
 `;
 export const Footer = styled.footer`
-  padding: 30px;
   margin: 30px auto;
-
-  span {
-  }
+  display: flex;
 
   img {
+    padding: 10px;
   }
 `;
